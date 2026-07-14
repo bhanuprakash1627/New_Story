@@ -1,0 +1,1158 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 80px;
+    padding-bottom: 20px;
+    gap: 175px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.logo {
+    width: 132px;
+    height: 60px;
+    background-size: cover;
+    scale: 1.5;
+    position: absolute;
+    top: 30;
+    left: 80;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: -190px;
+    gap: 20px;
+    width: 650px;
+    height: 70px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 138px;
+    height: 44px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #131313;
+    text-decoration: none;
+}
+
+.downarrow {
+    width: 15px;
+    height: 15px;
+    margin-left: 14px;
+    scale: 1.5;
+    color: #F2CC14;
+    background: white;
+}
+
+.search {
+    background: none;
+    border: none;
+    color: #00578C;
+    position: absolute;
+    font-size: 12px;
+    top: 57px;
+    left: 1050px;
+}
+
+.search_icon {
+    width: 20px;
+    margin-top: 2px;
+    margin-left: -70px;
+}
+
+.corner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+    width: fit-content;
+    height: 70px;
+    margin-left: -150px;
+}
+
+.contact {
+    box-sizing: border-box;
+    padding: 10px 24px;
+    gap: 24px;
+
+    width: 147px;
+    height: 44px;
+    border: none;
+    background: #F2CC14;
+    border-radius: 100px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    color: #000000;
+
+}
+
+.careers {
+    /* Frame 1321315234 */
+
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 24px;
+    gap: 24px;
+
+    width: 116px;
+    height: 44px;
+
+    background: #57C2E8;
+    border-radius: 100px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.banner {
+    background: url("C:/Users/bhanu.prakash/Bhanu_Prakash-Data/New_Story/images/fa9b791c84534c8f6c3c61a7cda537a422b0b3fd.jpg");
+    position: absolute;
+    left: 0;
+    top: 105;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.banner_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left: 55px;
+    width: 507px;
+    height: 500px;
+}
+
+
+.banner_head {
+    width: 521px;
+    height: 186px;
+    position: absolute;
+    height: 186px;
+    left: 60px;
+    top: 40px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.banner_para {
+    width: 455px;
+    height: 112px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 260px;
+    margin-left: 5px;
+    color: #FFFFFF;
+
+}
+
+.banner_buttons {
+    position: absolute;
+    top: 460;
+    left: 60px;
+}
+
+.explore {
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 24px;
+    gap: 24px;
+
+    width: 231px;
+    height: 50px;
+
+    background: #F2CC14;
+    border-radius: 100px;
+    margin-right: 20px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+
+    color: #000000;
+}
+
+.about {
+
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 24px;
+    gap: 24px;
+
+    width: 266px;
+    height: 50px;
+
+    background: #57C2E8;
+    border-radius: 100px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    color: #000000;
+
+}
+
+.section2 {
+    position: absolute;
+    padding: 96px 0px 0px 0px;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    height: 565px;
+    background: #FFFFFF;
+}
+
+
+.section2_inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 44px;
+    margin-left: 100px;
+    width: 1280px;
+    height: 369px;
+
+}
+
+.section2_inner_pic {
+    width: 620px;
+    height: 370px;
+    border-radius: 20px;
+}
+
+.section2_inner2 {
+    /* Frame 1321316125 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 530px;
+    height: 369px;
+}
+
+.section2_inner_head {
+    width: 626px;
+    /* height: 44px; */
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    margin-top: 5;
+    /* identical to box height, or 44px */
+
+    color: #00578C;
+
+}
+
+.section2_inner_head2 {
+    /* A Network of Specialized Schools with One Shared Purpose */
+
+    width: 456px;
+    /* height: 58px; */
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: -9px;
+
+    color: #00578C;
+}
+
+.section2_inner_para {
+    /* New Story operates a network of over 75 schools and programs that provide individualized education, therapeutic support, and pathways for growth. We partner with districts to deliver the right services in the right setting— whether in one of our schools or within the district itself. Our educators, clinicians, and staff share a common mission: to create learning environments where every student feels seen, supported, and capable of success. */
+
+    width: 535px;
+    height: 68px;
+    margin-top: 0;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #000000;
+
+}
+
+.section2_inner_para2 {
+    margin-top: 30px;
+}
+
+
+.section2_bottom {
+    /* Frame 1321315298 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 0px 80px 96px; */
+
+    width: 100%;
+    height: 104px;
+    margin-top: 30px;
+
+    background: #FFFFFF;
+
+
+}
+
+
+.section2_bottom_inner {
+    /* stat */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-top: 30px;
+    width: 340px;
+    height: 130px;
+
+    border-right: 1px solid #C1BFBF;
+}
+
+
+.section2_bottom_inner_head {
+    /* 1997 */
+
+    width: 340px;
+    /* height: 101px; */
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    /* line-height: 101px; */
+    /* identical to box height */
+    margin-top: 0px;
+    /* margin-left: -44px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #00578C;
+
+}
+
+.section2_bottom_inner_para {
+    /* Established */
+
+    width: 148px;
+    /* height: 25px; */
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: -50px;
+    color: #000000;
+
+}
+
+.section3 {
+    position: absolute;
+    top: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 96px 0px 96px 0px;
+    gap: 16px;
+    left: 0;
+    width: 100%;
+    height: 324px;
+    background: #112E56;
+}
+
+
+.section3_main {
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.section3_head {
+    width: 1280px;
+    height: 20px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.section3_para {
+    width: 1280px;
+    height: 15px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+}
+
+.section3_bottom {
+
+    /* Frame 1321315680 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    width: 1280px;
+    height: 183px;
+
+}
+
+
+.section3_bottom_inner_head {
+    /* Our Schools */
+
+    width: 610px;
+    height: 22px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    /* identical to box height, or 33px */
+
+    color: #FFFFFF;
+}
+
+.section3_bottom_inner_para {
+    width: 610px;
+    height: 72px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.section3_bottom_inner_button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    background: #57C2E8;
+    border-radius: 100px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 110%;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.section3_bottom_inner_button1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    border: none;
+    width: 280px;
+    height: 50px;
+    background: #57C2E8;
+    border-radius: 100px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 110%;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px 0px;
+    gap: 40px;
+    position: absolute;
+    width: 100%;
+    height: 1056px;
+    left: 0px;
+    top: 1950px;
+}
+
+.section4_inner {
+    margin-left: 80px;
+}
+
+.section4_main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 24px;
+    width: 512px;
+    height: 215px;
+    border-bottom: 4px solid #F2CC14;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.section4_main_head {
+    width: 512px;
+    height: 218px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 110%;
+    color: #00578C;
+}
+
+.section4_main_para {
+    width: 512px;
+    height: 29px;
+    position: absolute;
+    top: 230;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #00578C;
+}
+
+
+.boy_pic {
+    width: 481px;
+    height: 735px;
+}
+
+.section4_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 204px;
+    margin-top: 40px;
+    width: 1280px;
+    height: 725px;
+
+}
+
+.section4_bottom_inner_side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    margin-top: -300px;
+    width: 635px;
+    height: 502px;
+}
+
+.section4_bottom_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 405px;
+    height: 180px;
+}
+
+.section4_bottom_inner_count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+
+    background: #F2CC14;
+    border-radius: 1000px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #00578C;
+}
+
+.section4_bottom_inner_head {
+    /* Comprehensive Support */
+
+    width: 635px;
+    /* height: 37px; */
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+
+    color: #00578C;
+
+}
+
+.section4_bottom_inner_para {
+    width: 305px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 3015px;
+    left: 0;
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 66px 0px;
+    background: #112E56;
+
+}
+
+.section5_main_head {
+    width: auto;
+    height: 20px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.section5_main_para {
+    width: 1280px;
+    height: 55px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 29px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.section5_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    margin: 0 auto;
+    width: 970px;
+    height: 266px;
+
+}
+
+.section5_image {
+    width: 350px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.section5_bottom_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0px;
+    width: 574.85px;
+    height: 173px;
+    margin-top: -80px;
+}
+
+.section5_bottom_right_head {
+    width: 574.85px;
+    height: 33px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.section5_bottom_right_para {
+    width: 520px;
+    height: 72px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.section5_bottom_right_button {
+    /* Frame 1321315234 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    margin-top: 10px;
+
+    width: 282px;
+    height: 50px;
+
+    background: #F2CC14;
+    border-radius: 100px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    border: none;
+    color: #000000;
+}
+
+
+.section5_right_click {
+    position: absolute;
+    left: 100;
+    color: #000000;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #F2CC14;
+    border-radius: 1000px;
+
+}
+
+.section5_left_click {
+    position: absolute;
+    right: 100px;
+    color: #000000;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    background: #F2CC14;
+    border-radius: 1000px;
+}
+
+.section6 {
+    background: url("C:/Users/bhanu.prakash/Bhanu_Prakash-Data/New_Story/images/094b4cdc3f86a58a429f52f8e6328f0d04debce7.jpg");
+    position: absolute;
+    left: 0px;
+    top: 3617px;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 96px 0px;
+    gap: 10px;
+    width: 100%;
+    height: 507px;
+}
+
+.section6_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 597px;
+    height: 176px;
+}
+
+.section6_main_head {
+    position: absolute;
+    width: 544px;
+    height: 186px;
+    left: 0px;
+    top: 80px;
+    margin-left: -190px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #00578C;
+}
+
+.section6_main_head_span {
+    color: #57C2E8;
+}
+
+.section6_main_para {
+    width: 507px;
+    height: 56px;
+    margin-top: 130px;
+    margin-left: 30px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #00578C;
+}
+
+.section6_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 364px;
+    height: 50px;
+}
+
+.section6_bottom_ltbutton {
+    box-sizing: border-box;
+    padding: 10px 24px;
+    gap: 24px;
+    width: 189px;
+    height: 50px;
+    background: #F2CC14;
+    border-radius: 100px;
+    font-family: 'Century Gothic';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    color: #000000;
+    border: none;
+}
+
+.section6_bottom_rtbutton {
+    box-sizing: border-box;
+    padding: 10px 24px;
+    gap: 24px;
+    width: 179px;
+    height: 50px;
+    background: #57C2E8;
+    border-radius: 100px;
+    font-family: 'Century Gothic';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    color: #000000;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    height: 473px;
+    background: #00558C;
+    position: absolute;
+    top: 4316;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+    gap: 76px;
+}
+
+.footer_main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+    width: 490px;
+    height: 215px;
+    margin-top: -200px;
+    margin-left: -60px;
+    border-right: 0.5px solid #FFFFFF;
+}
+
+
+.footer_main_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 185px;
+    height: 217px;
+    margin-left: 40px;
+}
+
+
+.footer_main_right_button {
+    box-sizing: border-box;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    width: 147px;
+    height: 50px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    background: #F2CC14;
+    border-radius: 100px;
+    margin: 10px 0px 0px 10px;
+}
+
+.footer_main_right_mail {
+    width: 152px;
+    height: 18px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_main_right_para {
+    width: 157px;
+    height: 4px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 2px;
+    color: #FFFFFF;
+}
+
+.footer_main_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 112px;
+    height: 120px;
+}
+
+
+.footer_main_sub_head,
+.footer_main_sub_head1,
+.footer_main_sub_head2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 10px;
+    width: fit-content;
+    height: 0px;
+    border-bottom: 3px solid #F2CC14;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_main_sub_head1,
+.footer_main_sub_head2 {
+    width: 120px;
+}
+
+
+
+
+.footer_main_sub_para {
+    width: 83px;
+    height: 5px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer_main_sub_smallpara {
+    width: 88px;
+    height: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer_lkdn_symbol {
+    position: absolute;
+    top: 305px;
+    right: 320px;
+}
+
+.footer_lkdn_symbol:hover{
+    cursor: pointer;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background: #112E56;
+
+}
+
+.footer_bottom_rt {
+    width: 305px;
+    height: 17px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+}
+
+.footer_bottom_lt {
+    width: 763px;
+    height: 17px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #F2CC14;
+    margin-left: -350px;
+    letter-spacing: 0.25px;
+}
+
+.footer_bottom_lt_text1,
+.footer_bottom_lt_text2,
+.footer_bottom_lt_text3 {
+    text-transform: capitalize;
+    color: #F2CC14;
+}
+
+.footer_bottom_lt_text2 {
+    margin-right: 13px;
+}
+
+.footer_bottom_lt_text3 {
+    margin-left: 13px;
+}
