@@ -142,7 +142,7 @@ button:hover{
 }
 
 .banner {
-    background: url("C:/Users/bhanu.prakash/Bhanu_Prakash-Data/New_Story/images/fa9b791c84534c8f6c3c61a7cda537a422b0b3fd.jpg");
+    background: url("./images/fa9b791c84534c8f6c3c61a7cda537a422b0b3fd.jpg");
     position: absolute;
     left: 0;
     top: 105;
@@ -837,7 +837,7 @@ button:hover{
 }
 
 .section6 {
-    background: url("C:/Users/bhanu.prakash/Bhanu_Prakash-Data/New_Story/images/094b4cdc3f86a58a429f52f8e6328f0d04debce7.jpg");
+    background: url("./images/094b4cdc3f86a58a429f52f8e6328f0d04debce7.jpg");
     position: absolute;
     left: 0px;
     top: 3617px;
